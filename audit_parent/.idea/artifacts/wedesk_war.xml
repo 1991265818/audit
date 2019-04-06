@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wedesk:war">
+    <output-path>$PROJECT_DIR$/wedesk/target</output-path>
+    <root id="archive" name="wedesk.war">
+      <element id="artifact" artifact-name="wedesk:war exploded" />
+    </root>
+  </artifact>
+</component>

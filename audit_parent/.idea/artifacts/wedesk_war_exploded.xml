@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wedesk:war exploded">
+    <output-path>$PROJECT_DIR$/wedesk/target/wedesk</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wedesk" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/wedesk/target/wedesk/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wedesk/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/audit_parent.iml" filepath="$PROJECT_DIR$/audit_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wedesk/wedesk.iml" filepath="$PROJECT_DIR$/wedesk/wedesk.iml" />
+    </modules>
+  </component>
+</project>

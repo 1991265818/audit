@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="InvitationManage:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="InvitationManage.war">
+      <element id="artifact" artifact-name="InvitationManage:war exploded" />
+    </root>
+  </artifact>
+</component>

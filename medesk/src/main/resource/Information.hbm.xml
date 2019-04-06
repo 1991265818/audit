@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.zh.pojo.Information" table="information" schema="audit">
+        <id name="infoid" column="infoid"/>
+        <property name="infotype" column="infotype"/>
+        <property name="content" column="content"/>
+        <property name="sendpeople" column="sendpeople"/>
+        <property name="sendtime" column="sendtime"/>
+    </class>
+</hibernate-mapping>

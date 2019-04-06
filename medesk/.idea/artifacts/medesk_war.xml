@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="medesk:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="me-desk.war">
+      <element id="artifact" artifact-name="medesk:war exploded" />
+    </root>
+  </artifact>
+</component>

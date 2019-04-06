@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.zh.pojo.Backlogs" table="backlogs" schema="audit">
+        <id name="blid" column="blid"/>
+        <property name="despatcher" column="despatcher"/>
+        <property name="sendtime" column="sendtime"/>
+        <property name="dotime" column="dotime"/>
+        <property name="suggestion" column="suggestion"/>
+        <property name="dopeople" column="dopeople"/>
+        <many-to-one name="operation" class="com.zh.pojo.Operation" column="operationid"  lazy="false" cascade="all"></many-to-one>
+        <many-to-one name="matter" class="com.zh.pojo.Matter" column="typeid"  lazy="false"></many-to-one>
+    </class>
+</hibernate-mapping>
